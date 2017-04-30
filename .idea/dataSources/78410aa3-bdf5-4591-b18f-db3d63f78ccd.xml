@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="Sqlite (Xerial) - lastfm_tags.db">
+  <database-model serializer="dbm" rdbms="SQLITE" format-version="2.6">
+    <schema id="1">
+      <visible>1</visible>
+    </schema>
+    <table id="2" parent="1" name="tags"/>
+    <table id="3" parent="1" name="tid_tag"/>
+    <table id="4" parent="1" name="tids"/>
+    <column id="5" parent="2" name="tag">
+      <data-type>TEXT(0,-1)|12</data-type>
+    </column>
+    <index id="6" parent="2" name="idx_tag">
+      <columns>tag</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+    </index>
+    <column id="7" parent="3" name="tid">
+      <data-type>INT(0,-1)|4</data-type>
+    </column>
+    <column id="8" parent="3" name="tag">
+      <data-type>INT(0,-1)|4</data-type>
+    </column>
+    <column id="9" parent="3" name="val">
+      <data-type>FLOAT(0,-1)|6</data-type>
+    </column>
+    <index id="10" parent="3" name="idx_tid_tag_val">
+      <columns>tid
+tag
+val</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+    </index>
+    <index id="11" parent="3" name="idx_tag_val">
+      <columns>tag
+val</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+    </index>
+    <index id="12" parent="3" name="idx_val">
+      <columns>val</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+    </index>
+    <column id="13" parent="4" name="tid">
+      <data-type>TEXT(0,-1)|12</data-type>
+    </column>
+    <index id="14" parent="4" name="idx_tid">
+      <columns>tid</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+    </index>
+  </database-model>
+</dataSource>

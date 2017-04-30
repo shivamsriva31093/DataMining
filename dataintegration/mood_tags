@@ -1,0 +1,121 @@
+{
+  "positive": {
+    "happy": [
+      "happy",
+      "joy",
+      "cheerful",
+      "fun",
+      "enjoyable",
+      "chirpy",
+      "cheery",
+      "joyous",
+      "merry",
+      "light-hearted",
+      "celebration",
+      "fortunate",
+      "playful"
+    ],
+    "sad": [
+      "sad",
+      "cheerless",
+      "melancholy",
+      "dark",
+      "sorry",
+      "bad",
+      "tearful",
+      "tragic",
+      "gloomy",
+      "boring",
+      "depressing",
+      "bittersweet",
+      "sentimental"
+    ],
+    "angry": [
+      "angry",
+      "rage",
+      "stormy",
+      "mad",
+      "heavy",
+      "intense",
+      "irritating",
+      "displeasing",
+      "aggressive"
+    ],
+    "calm": [
+      "calm",
+      "relaxed",
+      "spiritual",
+      "tranquil",
+      "serene",
+      "quiet",
+      "peaceful",
+      "balmy",
+      "soothing",
+      "dreamy",
+      "composed",
+      "cool",
+      "smooth",
+      "still",
+      "gentle",
+      "sleepy"
+    ]
+  },
+  "negative": {
+    "not happy": [
+      "sadden",
+      "joyless",
+      "unplayful",
+      "unhappy",
+      "unfortunate",
+      "sorrow",
+      "depressing"
+    ],
+    "not sad": [
+      "good",
+      "tearless",
+      "glad",
+      "interest",
+      "unregretful",
+      "goodness",
+      "day",
+      "light",
+      "cheerful",
+      "elate"
+    ],
+    "not calm": [
+      "heat",
+      "stimulate",
+      "agitate",
+      "roughen",
+      "staccato",
+      "tense",
+      "stormy",
+      "unpeaceful",
+      "moving",
+      "sparkling",
+      "active",
+      "discomposure",
+      "louden",
+      "stiffen",
+      "discomposed",
+      "rough",
+      "noisy",
+      "unquietly",
+      "sound",
+      "strain",
+      "warm",
+      "irritate",
+      "unquiet"
+    ],
+    "not angry": [
+      "unaggressive",
+      "mild",
+      "calm",
+      "please",
+      "light",
+      "pleasing",
+      "soothe",
+      "unangry"
+    ]
+  }
+}
